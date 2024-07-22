@@ -1,0 +1,15 @@
+.main-container {
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(121,71,9,1) 75%);
+    height: 100vh;
+    font-family: Sans-serif;
+    color: white;
+
+    & header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        font-size: 36px;
+        font-weight: bold;
+    }
+}

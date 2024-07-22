@@ -1,0 +1,26 @@
+.songs-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.songs-list__item {
+    color: white;
+    margin: 10px;
+}
+
+.songs-list__thumbnail-wrapper {
+    min-height: 200px;
+    min-width: 200px;
+    background: red;
+}
+
+.songs-list__text-wrapper {
+    margin: 20px 0;
+
+    & p {
+        text-align: center;
+        font-weight: bold;
+    }
+}

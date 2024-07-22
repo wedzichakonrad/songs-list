@@ -1,0 +1,19 @@
+.filter-bar {
+    display: flex;
+    margin: 10px;
+}
+
+.filter-bar__button {
+    background: greenyellow;
+    width: 80px;
+    height: 40px;
+    margin: 0 20px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 8px;
+    margin-right: 8px;
+}
